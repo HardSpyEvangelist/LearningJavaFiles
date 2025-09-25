@@ -5,13 +5,13 @@ public class area_of_a_rectangle {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("What is length: ");
+        System.out.print("What is the length: ");
         double length = scanner.nextDouble();
 
-        System.out.print("What is width: ");
+        System.out.print("What is the width: ");
         double width = scanner.nextDouble();
 
-        System.out.println("The area of this rectangle is:" + length * width);
+        System.out.println("The area of this rectangle is: " + length * width + " cm²");
 
 
 
