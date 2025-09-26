@@ -15,7 +15,7 @@ public class MadlibsGame {
         String startGame = scanner.nextLine();
 
         // check their answer
-        if(!startGame.equalsIgnoreCase("yes")) {
+        if(!startGame.equalsIgnoreCase("yes")) { //that line !startGame.equalsIgnoreCase("yes") is kind of cool
             System.out.println("Okay, maybe next time!");
             scanner.close();
             return; // stop the program
@@ -23,9 +23,9 @@ public class MadlibsGame {
 
         // explain the rules
         System.out.println("\nRULES:");
-        System.out.println("👉 I will ask you for words (adjectives, nouns, verbs).");
-        System.out.println("👉 Your words will be used to create a silly story.");
-        System.out.println("👉 Just type in what I ask for and have fun!\n");
+        System.out.println("I will ask you for words (adjectives, nouns, verbs).");
+        System.out.println("Your words will be used to create a silly story.");
+        System.out.println("Just type in what I ask for and have fun!\n");
 
         // ask if they want to continue
         System.out.print("Do you want to continue? (yes/no): ");
@@ -69,4 +69,6 @@ public class MadlibsGame {
         scanner.close();  // we close the scanner (good practice to avoid memory leaks)
 
     }
+
+
 }
