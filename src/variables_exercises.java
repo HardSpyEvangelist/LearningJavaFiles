@@ -33,12 +33,12 @@ public class variables_exercises {
         System.out.println(gpa);
 
         char grade = 'A';
-        char symbol = '!';
+        char symbol = '?';
         char currency = '$';
 
         System.out.println(currency);
         System.out.println("l got an " + grade + " in math today");
-        System.out.println("Always end your questions with this " + symbol + "when you are writing");
+        System.out.println("Always end your questions with this " + symbol + "when you are asking a question");
 
         boolean isStudent = true;
         boolean forSale = false;
