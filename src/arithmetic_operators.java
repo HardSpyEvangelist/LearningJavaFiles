@@ -18,8 +18,6 @@ public class arithmetic_operators {
 
         System.out.println(z);
 
-        // -------------------------------------------------------------------
-
         // augmented assignment operators
         // instead of creating another variable like z, we can update the variable itself
         // basically: "take the old value, do the math, and shove it back in"
