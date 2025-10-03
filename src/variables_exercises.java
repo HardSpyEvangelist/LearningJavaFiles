@@ -29,7 +29,7 @@ public class variables_exercises {
         double temperature = -12.5;
 
         System.out.println("$" + price);
-        System.out.println("%" + temperature);
+        System.out.println(temperature + "%");
         System.out.println(gpa);
 
         char grade = 'A';
