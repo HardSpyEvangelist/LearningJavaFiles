@@ -8,7 +8,7 @@ public class user_input_with_buffer_reader {
         // We are using BufferedReader to accept user input
         // BufferedReader only reads text (String), so we must convert it
         // to other data types manually (int, double, char, boolean)
-        // -----------------------------
+        // ------------------------------
 
         // Step 1: Create a BufferedReader object
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
