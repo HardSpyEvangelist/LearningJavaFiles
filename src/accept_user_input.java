@@ -63,5 +63,5 @@ public class accept_user_input {
      different buttons (nextInt, nextDouble, etc.) depending on
      what type of input snack you want.
 
-     l wanna see something
+     l want see something
 */
