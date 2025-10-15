@@ -15,3 +15,15 @@ public class j_option_pane_l_guess {
 
     }
 }
+
+/*
+import javax.swing.*;
+class j_option_pane_I_guess{
+    public static void main(String[] args){
+        String userInput;
+        userInput = JOptionPane.showInputDialog("your name: ");
+        System.out.println("Hello " + userInput + " !");
+    }
+}
+
+ */

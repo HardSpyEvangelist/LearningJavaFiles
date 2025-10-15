@@ -1,6 +1,7 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.IOException;
+//import java.io.BufferedReader;
+//import java.io.InputStreamReader;
+//import java.io.IOException;
+import java.io.*;
 
 public class user_input_with_buffer_reader {
     public static void main(String[] args) throws IOException {
